@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: green;
+    height: 8vh;
+    list-style: none;
+    color: white;
+}
+nav li{
+    display: inline-block;
+    margin:20px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+.containermain{
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 60px;
+}
+.box1, .box2, .box3{
+    height:370px;
+    width: 370px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 b, .box2 b, .box3 b{
+    font-size:x-large;
+ 
+}
+.box1:hover, .box2:hover,.box3:hover{
+    border:2px solid green;
+    color: green;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
