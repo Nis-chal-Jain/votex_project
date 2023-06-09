@@ -41,3 +41,10 @@ margin: 60px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.footer{
+    height: 20vw;
+    background-color: rgb(201, 201, 201);
+}
+#pic {
+    height: 6vh; width: 6vh; border-radius: 50%; float: right; margin-top: 8px;margin-right:8px ;
+}
